@@ -1,0 +1,10 @@
+selenium:
+  framework:
+    browser: chrome
+    demo-url: https://ocp.opecfund.org/
+logging:
+  config: classpath:logback.xml
+
+allure:
+  results:
+    directory: target/allure-results

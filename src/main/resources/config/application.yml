@@ -1,0 +1,15 @@
+selenium:
+  framework:
+    browser: chrome
+    demo-url: https://demoqa.com/
+
+logging:
+  level:
+    root: info
+
+server:
+  port: 8081
+
+allure:
+  results:
+    directory: target/allure-results
